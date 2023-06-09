@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=DynaPuff:wght@500&family=Merienda:wght@300&display=swap');
+
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+h3 {
+    color:white;
+}
+
+.contenedorFooter {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(196, 196, 196);
+}
+
+.claseuno img {
+    height: 150px;  
+}
+
+.claseuno {
+    width: 250px;
+
+}
+
+.clasedos {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.clasedos ul{ 
+    list-style: none;
+}
+
+.clasetres h3 {
+    font-size: 25px;
+}
+.clasetres p {
+    font-size: 15px;
+}
+
+
+.clasecuatro {
+    width: 250px;
+}
+.clasecuatro {
+    width: 250px;
+}
+.clasecuatro h3 {
+font-size: 25px;
+}
+
+.clasecuatro p {
+    font-size: 15px;
+    }
