@@ -146,6 +146,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -265,3 +267,28 @@ footer {
         padding: 3rem, 2rem;
     }
  }
+
+ 
+
+
+
+
+
+
+
+
+ /* CONTACTO */
+ /* Mapita */
+ .dire-contact {
+    display: center;
+    padding: 20px;
+    align-items: flex-end;
+    width: 100%;
+    height: autoq;
+}
+ .mapita {
+    display: flex;
+    align-items: right;
+    justify-content: end;
+    padding: 50px;
+}
