@@ -7,7 +7,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 85px;
-    padding: 5px 10%;
+    padding: 40px 20%;
 }
 
 h3 {
@@ -19,7 +19,9 @@ h3 {
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(196, 196, 196);
+    background-color: rgba(146, 144, 144, 0.726);
+    padding: 30px 20px
+
 }
 
 .claseuno img {
@@ -28,6 +30,7 @@ h3 {
 
 .claseuno {
     width: 250px;
+    padding: 20px;
 
 }
 
@@ -36,6 +39,7 @@ h3 {
     display: flex;
     flex-direction: column;
     text-align: left;
+    padding: 20px;
 }
 .clasedos ul{ 
     list-style: none;
@@ -47,13 +51,14 @@ h3 {
 .clasetres p {
     font-size: 15px;
 }
-
-
-.clasecuatro {
+.clasetres {
+    padding: 20px;
     width: 250px;
 }
+
 .clasecuatro {
     width: 250px;
+    padding: 20px;
 }
 .clasecuatro h3 {
 font-size: 25px;

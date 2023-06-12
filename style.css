@@ -28,8 +28,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
-    padding: 5px 10%;
+    height: auto;
+    padding: 10px 60px;
 }
 
 .header .logo {
@@ -132,6 +132,7 @@ seccion .foto1 {
 /* Footer */
 footer {
     width: 100%;
+    height: 10cm;
     color: var(--color-neutral-40);
     
     
@@ -147,7 +148,7 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
     width: 100%;
-    height: 100%;
+    height: 9.9cm;
 
 }
 
@@ -225,7 +226,7 @@ footer {
 
 #input_group input {
     all: unset;
-    padding: 0.75rem;
+    padding: 0.25rem;
     width: 100%;
 }
 
@@ -250,7 +251,7 @@ footer {
     justify-content: center;
     background-color: var(--color-neutral-0);
     font-size: 0.9rem;
-    padding: 1.5rem;
+    padding: 1rem;
     font-weight: 100;
 }
 
@@ -283,8 +284,9 @@ footer {
     display: center;
     padding: 20px;
     align-items: flex-end;
-    width: 100%;
-    height: autoq;
+    width: 1    00%;
+    height: 20%;
+    background-color: #919191;
 }
  .mapita {
     display: flex;
