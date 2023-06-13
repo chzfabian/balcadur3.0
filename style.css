@@ -294,3 +294,13 @@ footer {
     justify-content: end;
     padding: 50px;
 }
+
+
+
+
+/* ABRIGOS */
+
+.cuadrouno {
+    display: flex;
+    justify-content: center;
+}
