@@ -306,3 +306,13 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+
+/* Accesorios */
+
+ /* Videito Header */
+ .videito {
+    justify-content: center;
+    display: center;
+    align-items: center;
+ }
