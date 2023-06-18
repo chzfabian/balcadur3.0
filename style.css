@@ -312,7 +312,8 @@ footer {
 
  /* Videito Header */
  .videito {
-    justify-content: center;
+    justify-content: space-be;
     display: center;
     align-items: center;
  }
+
