@@ -1,3 +1,4 @@
+/* PERTENECE A LA PAGINA DE INDEX.HTML (HOME) */
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=DynaPuff:wght@500&family=Merienda:wght@300&display=swap');
 
 :root {
@@ -269,31 +270,29 @@ footer {
  
 
 
+/* PERTENECE A LA PAGINA DE TIENDA.HTML  */
 
-
-
-
-
-
- /* CONTACTO */
- /* Mapita */
- .dire-contact {
-    display: center;
-    padding: 20px;
-    align-items: flex-end;
-    width: 1    00%;
-    height: 20%;
-    background-color: #919191;
-}
- .mapita {
+/* SECTION UNO (CUADRO UNO) */
+.cuadrito-uno{
+    padding: 5%;
     display: flex;
-    align-items: right;
-    justify-content: end;
-    padding: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cuadrito-dos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
 }
 
 
+/* PERTENECE A LA PAGINA DE SALE.HTML  */
 
+
+/* PERTENECE A LA SECCIÓN ABRIGOS Y CALZADOS .HTML */
 
 /* ABRIGOS */
 
@@ -301,6 +300,8 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+
 /* Cuadros1 */
 
 .claseunito {
@@ -327,6 +328,8 @@ footer {
 }
 
 
+/* PERTENECE A LA SECCIÓN DE ACCESORIOS.HTML */
+
 /* Accesorios */
 
  /* Videito Header */
@@ -337,14 +340,22 @@ footer {
  }
 
 
- /* TIENDA.HTML */
 
-/* SECTION UNO (CUADRO UNO) */
-.cuadrito-uno{
-    padding: 5%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    
+ /* PERTENECE A LA SECCIÓN DE CONTACTO.HTML */
+ /* Mapita */
+ .dire-contact {
+    display: center;
+    padding: 20px;
+    align-items: flex-end;
+    width: 1    00%;
+    height: 20%;
+    background-color: #919191;
 }
+ .mapita {
+    display: flex;
+    align-items: right;
+    justify-content: end;
+    padding: 50px;
+}
+
+
