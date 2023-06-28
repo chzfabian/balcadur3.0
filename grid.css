@@ -225,7 +225,23 @@ footer {
     float: left;
 }
 .c1 {
-    background-color: #4267b3;
+    background: linear-gradient(#615e4b, #0931203b, #646161, #646161);
+}
+.c1 span {
+    height: 100%;
+    width: 100%;
+    background: inherit;
+}
+.c1 span:nth-child(1) {
+    filter: blur(7px);
+}
+.c1{
+    animation: rotate 1.5s linear infinite;
+}
+@keyframes rotate {
+    100%{
+        filter: hue-rotate(360deg);
+    }
 }
 .c7 {
     background-color: #ff2992;
