@@ -274,7 +274,8 @@ footer {
 
 /* SECTION UNO (CUADRO UNO) */
 .cuadrito-uno{
-    padding: 5%;
+    margin: 10px;
+    padding: 2%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -282,10 +283,11 @@ footer {
 }
 
 .cuadrito-dos{
+    padding: 0%;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
 }
 button.btn-close {
     margin: 10 10 10 10;
@@ -332,19 +334,48 @@ div.modal-footer {
 
 /* ABRIGOS */
 
-.cuadrouno {
-    display: flex;
+.btn-ver {
+    padding: 0px 15px;
+    height: 40px;
+    margin: 15px 0px;
+}   
+h4, p {
     justify-content: center;
+    display: flex;
 }
+.modal-body img {
+    height: auto;
+    width: 100%;
+}
+
 
 
 /* Cuadros1 */
 
-.claseunito {
+
+.claseunito1 {
+    padding: 15px;
+    justify-content: center;
     display: flex;
-    flex-wrap: nowrap;
-    padding: 20px;
+    align-items: center;
+    margin: 5px;
+    
 }
+.claseunito2 {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.claseunito3 {
+        justify-content: center;
+        display: flex;
+    }
+.claseunito4 {
+    justify-content: center;
+    display: flex;
+}
+
 .text-body-secondary {
     display: flex;
     justify-content: center;
