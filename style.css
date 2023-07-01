@@ -290,6 +290,26 @@ footer {
 button.btn-close {
     margin: 10 10 10 10;
 }
+.text-bg-secondary:hover {
+    background-color: red;
+}
+.btn-btn-primary:hover{
+    background-color:#919191;
+}
+.btn-btn-primary{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn-btn-danger:hover{
+    background-color:#919191;
+}
+
+.fa-solid {
+    font-weight: 600;
+    margin: 15px;
+}
 .modal-title {
     display: flex;
     justify-content: center;

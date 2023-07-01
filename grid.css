@@ -221,10 +221,13 @@ footer {
     border: 4px solid black;
     background-color: #a8a29e;
     text-align: center;
-    line-height: 150px;
     float: left;
     height: auto;
     align-items: center;
+}
+.caja h6 {
+ line-height: 60px;
+ 
 }
 .c1 {
     background: linear-gradient(#615e4b, #0931203b, #646161, #646161);
@@ -260,4 +263,17 @@ footer {
 }
 .c13 {
     background-color: #7f37c9;
+}
+/* css de cajitas */
+.btn-ver {
+    padding: 0px 15px;
+    height: 40px;
+    margin: 15px 0px;
+}
+/* Css para mis cajitas imagen */
+
+.caja img {
+    width: 30%;
+    height: 30%;
+    margin: 40px;
 }
