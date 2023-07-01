@@ -205,13 +205,12 @@ footer {
     padding: 20px;
 }
 
+   
 .grid-layout{ 
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
     justify-content: stretch;
-
-    width: 80%;
     margin: 0 auto;
     background-color: #171717;
     padding: 20px;
@@ -224,6 +223,8 @@ footer {
     text-align: center;
     line-height: 150px;
     float: left;
+    height: auto;
+    align-items: center;
 }
 .c1 {
     background: linear-gradient(#615e4b, #0931203b, #646161, #646161);

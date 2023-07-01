@@ -45,7 +45,7 @@ header {
 .header .barra-nave li a:hover{
     color: rgba(70, 85, 94, 0.678);
 }
-h2 {
+h2, h5 {
     justify-content: center;
     display: flex;
 }
@@ -287,6 +287,22 @@ footer {
     flex-direction: row;
     align-items: center;
 }
+button.btn-close {
+    margin: 10 10 10 10;
+}
+.modal-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4%;
+    font-size: 15px;
+}
+/* Modales de 1 row */
 
 
 /* PERTENECE A LA PAGINA DE SALE.HTML  */
@@ -357,5 +373,3 @@ footer {
     justify-content: end;
     padding: 50px;
 }
-
-q
