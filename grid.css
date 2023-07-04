@@ -195,7 +195,7 @@ footer {
 
  /* Videito Header */
 .videito {
-    justify-content: space-be;
+    justify-content: space-between;
     display: center;
     align-items: center;
 }
@@ -215,7 +215,6 @@ footer {
     background-color: #171717;
     padding: 20px;
     border: 1px solid black;
-
 }
 .caja {
     border: 4px solid black;
