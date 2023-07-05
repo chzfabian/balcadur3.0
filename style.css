@@ -45,7 +45,7 @@ header {
 .header .barra-nave li a:hover{
     color: rgba(70, 85, 94, 0.678);
 }
-h2, h5 {
+h1, h2, h5 {
     justify-content: center;
     display: flex;
 }
@@ -257,32 +257,29 @@ footer {
 }
 
  /* ResponsiveFooter */
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #footer_content {
         grid-template-columns: repeat(2,1fr);
         gap: 2rem;
-    }
- }
- @media screen and (max-width: 426px) {
+    } 
+}
+@media screen and (max-width: 426px) {
     #footer_content {
         grid-template-columns: repeat(1,1fr);
         padding: 3rem, 2rem;
     }
- 
+
     @media (max-width: 768px) { 
-     .grid-layout: repeat (1,1fr);
+        .grid-layout: repeat (1,1fr);
         
     
     }
-      
-      @media (max-width: 480px) {
+
+    @media (max-width: 480px) {
             
-      }
-      
+    }      
 
 }
-
- 
 
 
 /* PERTENECE A LA PAGINA DE TIENDA.HTML  */
@@ -456,18 +453,73 @@ h4, p {
 
 
  /* PERTENECE A LA SECCIÓN DE CONTACTO.HTML */
- /* Mapita */
+ /* Mapita */ 
+    .botoncitomayor{
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+    background: #0e0c0c;
+    cursor: pointer;
+    border: none;
+    padding: 16px, 32px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+ } 
  .dire-contact {
-    display: center;
+/*     background: #0e0c0c;
+    cursor: pointer;
+    border: none;
+    padding: 16px, 32px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+     */
     padding: 20px;
-    align-items: flex-end;
-    width: 1    00%;
-    height: 20%;
-    background-color: #919191;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-color: #1a1919;
+    color: white;
+    transition: all 0.4 ease 0;
 }
+    .button:hover::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        45deg,
+        red, blue, deeppink, blue,
+        red, blue, deeppink, blue,
+
+    );
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
  .mapita {
     display: flex;
-    align-items: right;
-    justify-content: end;
-    padding: 50px;
+    justify-content: center;
+    padding: 10px;
 }
