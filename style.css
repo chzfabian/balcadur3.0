@@ -12,6 +12,27 @@
 font-family: 'DynaPuff', cursive;
 font-family: 'Merienda', cursive;
 }
+.galeria-productos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: auto;
+  justify-items: center;
+}
+.galeria-productos > div {
+    border-style: solid;
+    border-color: #0e0c0c;
+    border-width: 2px;
+    display: grid;
+    justify-items: center;
+
+}
+
+.galeria-productos > div > img {
+    width: 80%;
+    height: auto;
+}
+
 
 * {
     box-sizing: border-box;
@@ -51,29 +72,6 @@ h1, h2, h5 {
 }
 .carouselExample {
     overflow: hidden;
-}
-.galeriauno { 
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: auto;
-    padding: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
-    overflow: hidden;
-    background: rgb(255, 255, 255);
-    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
-}
-/* .galeriauno img {
-    width: 50%; 
-    height: 100%;
-} */
-.section .foto1 {
-    display: flex;
-    align-content: center;
-    justify-content: center;
 }
 
 .galeriados { 
@@ -115,19 +113,26 @@ h1, h2, h5 {
     overflow: hidden;
     background: rgb(255, 255, 255);
     box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
-}
-.card-container{
+} */
+.card-container {
     display: flex;
     width: 100%;
-    padding: 10%;
-    
+    margin: 90%;
 }
-.card {
+
+.card { 
     width: 100%;
-    height: 100%;
+    height: auto;
     padding: 5%;
-    display: flex;
+    display: grid;
     justify-content: center;
+    align-items: center;
+}
+.card >div >img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-items: center;
     align-items: center;
 }
 
@@ -268,18 +273,17 @@ footer {
         grid-template-columns: repeat(1,1fr);
         padding: 3rem, 2rem;
     }
+}
 
     @media (max-width: 768px) { 
         .grid-layout: repeat (1,1fr);
-        
-    
     }
 
-    @media (max-width: 480px) {
-            
+    @media (min-width: 600px) {
+        .galeria-productos {
+            display: flex;
+        }
     }      
-
-}
 
 
 /* PERTENECE A LA PAGINA DE TIENDA.HTML  */
@@ -418,17 +422,32 @@ h4, p {
 }
 /* css de cajitas */
 .btn-ver {
-    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 40px;
-    margin: 15px 0px;
+    margin: 15px 50px;
 }
 /* Css para mis cajitas imagen */
-
+.zp2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 .caja img {
     width: 30%;
     height: 30%;
-    margin: 40px;
+    margin: 50px;
 }
+h6 {
+    margin: 50px;
+}
+.modal-body ximg {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Css para mis cajitas imagen */
 
@@ -437,8 +456,27 @@ h4, p {
     height: 20%;
     margin: 0;
 }
+/* Calzados */
+.caja-c30 img {
+    display: center;
+    justify-content: center;
+}
 
-
+.caja-c31 {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.caja-c32 h6 btn-ver {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.caja-c33 h6 btn-ver {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
 /* PERTENECE A LA SECCIÓN DE ACCESORIOS.HTML */
 
 /* Accesorios */
@@ -488,7 +526,7 @@ h4, p {
     color: white;
     transition: all 0.4 ease 0;
 }
-    .button:hover::before{
+/*     .button:hover::before{
     content: "";
     position: absolute;
     top: 0;
@@ -516,8 +554,27 @@ h4, p {
     100% {
         background-position: 0 0;
     }
+} */
+.button {
+    background: linear-gradient(#7f37c9, #ff2992, #4267b3, #ff9807);
 }
 
+.button span {
+    height: 100%;
+    width: 100%;
+    background: inherit;
+}
+.button span:nth-child(1) {
+    filter: blur(7px);
+}
+.button {
+    animation: rotate 1.5s linear infinite;
+}
+@keyframes rotate {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
  .mapita {
     display: flex;
     justify-content: center;

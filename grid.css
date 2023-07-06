@@ -178,9 +178,10 @@ footer {
 }
 
  /* ResponsiveFooter */
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     #footer_content {
         grid-template-columns: repeat(2,1fr);
+        font-size: 8px !;
         gap: 2rem;
     }
 }
@@ -190,6 +191,16 @@ footer {
         padding: 3rem, 2rem;
     }
 }
+
+/* Responsive Grid */
+
+@media screen and (max-width:600px) {
+
+
+    .grid-layout {
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+}   
 
  /* Accesorios */
 
@@ -228,19 +239,19 @@ footer {
  line-height: 60px;
  
 }
-.c1 {
-    background: linear-gradient(#615e4b, #0931203b, #646161, #646161);
+.c {
+    background: linear-gradient(#7f37c9, #ff2992, #4267b3, #ff9807);
 }
 
-.c1 span {
+.c span {
     height: 100%;
     width: 100%;
     background: inherit;
 }
-.c1 span:nth-child(1) {
+.c span:nth-child(1) {
     filter: blur(7px);
 }
-.c1{
+.{
     animation: rotate 1.5s linear infinite;
 }
 @keyframes rotate {
@@ -248,26 +259,20 @@ footer {
         filter: hue-rotate(360deg);
     }
 }
-.c7 {
-    background-color: #ff2992;
+.c20 {
+    background-color: #2c2a2a;
 }
-.c4 {
-    background-color: yellow;
+.c2 {
+    background-color: #a8a29e}
+.c3 {
+    background-color: #a8a29e;
 }
-.c11 {
-    background-color: #25d366;
-}
-.c14 {
-    background-color: #ff9807;
-}
-.c13 {
-    background-color: #7f37c9;
-}
+
 /* css de cajitas */
 .btn-ver {
     padding: 0px 15px;
     height: 40px;
-    margin: 15px 0px;
+    margin: 85px 0px;
 }
 /* Css para mis cajitas imagen */
 
