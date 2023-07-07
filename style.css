@@ -273,15 +273,28 @@ footer {
         grid-template-columns: repeat(1,1fr);
         padding: 3rem, 2rem;
     }
+    .divisiones {
+        display: flex;
+        justify-content: center;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
     @media (max-width: 768px) { 
-        .grid-layout: repeat (1,1fr);
+        .grid-layout: repeat (1,1fr); {}
+
+
+        .divisiones {
+            display: flex;
+            justify-content: center;
+            grid-template-columns: repeat(1,1fr);
+        }
     }
 
     @media (min-width: 600px) {
         .galeria-productos {
             display: flex;
+        
         }
     }      
 
@@ -289,6 +302,31 @@ footer {
 /* PERTENECE A LA PAGINA DE TIENDA.HTML  */
 
 /* SECTION UNO (CUADRO UNO) */
+.divisiones {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.divisiones > div > h1 {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divisiones >div > p {
+    font-size: 50%;
+    display: flex;
+    padding: 10px;
+    margin: 15px;
+    justify-content: flex;
+    align-content: center;
+    
+
+
+}
+
+
 .cuadrito-uno{
     margin: 10px;
     padding: 2%;
@@ -443,7 +481,11 @@ h4, p {
 h6 {
     margin: 50px;
 }
-.modal-body ximg {
+.modal-body img {
+    display: flex;
+    justify-content: center;
+}
+.modal-body > .fotito33 {
     display: flex;
     justify-content: center;
 }
