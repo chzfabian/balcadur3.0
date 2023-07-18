@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Balcadur, compra de ropa, oufits completos, accesorios y zapatos">
+    <meta name="keywords" content="zapatos, ropa, pantalones, balcadur,accesorios, abrigos y remeras">
     <!--Google Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,11 +13,11 @@
     <!-- CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS -->
-    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="./scss/style.css" rel="stylesheet" type="text/css">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- Faviconn -->
-    <link rel="icon" type="image/jpg" href="./imagenes/favicon.ico"/>
+    <link rel="icon" type="image/jpg" href="./imagenes/favicon.ico"/ alt="este es mi favicon">
     <title>BALCADUR</title>
 </head> 
 <body>
@@ -60,7 +62,7 @@
     <hr>
     <!-- Carousel -->
     <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
+        <div class="carousel-inner col-md-7 text-center text-md-start" >
           <div class="carousel-item active">
             <img src="./imagenes/Fondo1.jpg" width="100%" height="500px" class="d-block w-100" alt="FotoLocal"> 
           </div>
@@ -70,13 +72,13 @@
                 <source src="./imagenes/Video.mp4" type="video/ogg">
           </div>
           <div class="carousel-item">
-            <img src="./imagenes/Fondo2.jpg" width="100%" height="500px" class="d-block w-100" alt="...">
+            <img src="./imagenes/Fondo2.jpg" width="100%" height="500px" class="d-block w-100" alt="chico con campera negra">
           </div>
           <div class="carousel-item">
-            <img src="./imagenes/1 (3).png" width="100%" height="500px" class="d-block w-100" alt="...">
+            <img src="./imagenes/1 (3).png" width="100%" height="500px" class="d-block w-100" alt="campera marron">
           </div>
           <div class="carousel-item">
-            <img src="./imagenes/Foto42.jpg"width="100%" height="500px" class="d-block w-100" alt="...">
+            <img src="./imagenes/Foto42.jpg"width="100%" height="500px" class="d-block w-100" alt="foto oufit">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -90,81 +92,82 @@
       </div>
       <hr>
       <h2>LO MÁS VENDIDO</h2>
-      <!-- Galeria uno -->
+      <!-- Galeria Uno -->
     <div class="galeria-productos">
       
         <div>
-            <img src="./imagenes/Foto12.jpg" alt="">
+            <img src="./imagenes/Foto12.jpg" alt="CamperaGrisNegro">
         </div>
 
         <div >
-            <img src="./imagenes/Foto14.jpg" alt="">
+            <img src="./imagenes/Foto14.jpg" alt="CamperaBlanca">
         </div>
 
         <div>
-            <img src="./imagenes/Foto15.jpg" alt="">
+            <img src="./imagenes/Foto15.jpg" alt="CamperaNegra">
         </div>
 
         <div>
-            <img src="./imagenes/Foto16.jpg" alt="">
+            <img src="./imagenes/Foto16.jpg" alt="CamperaNegraconAmarillo">
           </div>
     </div>
+    <!-- Galeria Dos  -->
     <div class="galeria-productos">
         <div>
-            <img src="./imagenes/3.png"  alt="">
+            <img src="./imagenes/3.png"  alt="JeansNegro">
         </div>
-        <div cla>
-            <img src="./imagenes/4.png"  alt="">
+        <div>
+            <img src="./imagenes/4.png"  alt="JeansBlanco">
         </div>
 
         <div>
-            <img src="./imagenes/1.png" alt="">
+            <img src="./imagenes/1.png" alt="JeanNegro">
         </div>
 
         <div>
-            <img src="./imagenes/2.png" alt="">
+            <img src="./imagenes/2.png" alt="JeansNegro">
         </div>
     </div>
         <!-- Galeria Tres -->
     <div class="galeria-productos">
         <div>
-            <img src="./imagenes/5.png" alt="">
+            <img src="./imagenes/5.png" alt="GafasNegroTransparent">
         </div>
 
         <div>
-            <img src="./imagenes/6.png" alt="">
+            <img src="./imagenes/6.png" alt="GafasBlack">
         </div>
 
         <div>
-            <img src="./imagenes/7.png"  alt="">
+            <img src="./imagenes/7.png"  alt="RemeraTropic1">
         </div>
 
         <div>
-            <img src="./imagenes/8.png"  alt="">
+            <img src="./imagenes/8.png"  alt="RemeraTropic2">
         </div>
     </div>
         <!-- Galeria Cuatro -->
   <div class="galeria-productos">
 
         <div>
-            <img src="./imagenes/9.png" alt="">
+            <img src="./imagenes/9.png" alt="ZapatosHakimi9">
         </div>
 
         <div class="foto2">
-            <img src="./imagenes/10.png" alt="">
+            <img src="./imagenes/10.png" alt="ZapatosDiMariaP80">
         </div>
 
         <div class="foto3">
-            <img src="./imagenes/11.png" alt="">
+            <img src="./imagenes/11.png" alt="ZapatosLpro1">
         </div>
 
         <div class="foto4">
-            <img src="./imagenes/12.png" alt="">
+            <img src="./imagenes/12.png" alt="ZapatosCampeones">
         </div>
 
     </div> 
     <hr>
-    <div class="card-container" style="display: flex;">
+    <div class="card-container">
     <div class="card" style="width: 18rem;">
     <a href="./paginas.html/abriase.html#abrigos">Abrigos</a>
         <img src="./imagenes/Foto6.jpg" style="width: 50%" height="50%" class="card-img-top" alt="Foto de abrigo">
@@ -172,37 +175,38 @@
 
       <div class="card" style="width: 18rem;">
         <a href="./paginas.html/abriase.html#calzados">Calzados</a>
-      <img src="./imagenes/Foto7..jpg"style="width: 50%" height="50%" class="card-container" alt="...">
+      <img src="./imagenes/Foto7..jpg"style="width: 50%" height="50%" class="card-container" alt="ImagenCalzado">
       </div>
     
 
     <div class="card" style="width: 18rem;">
       <a href="./paginas.html/sale.html">Sale</a>
-      <img src="./imagenes/Foto8.jpg" style="width: 50%" height="50%"  class="card-container" alt="...">
+      <img src="./imagenes/Foto8.jpg" style="width: 50%" height="50%"  class="card-container" alt="ImagenDeSale">
     </div>
 
     <div class="card" style="width: 18rem;">
       <a href="./paginas.html/accesorios.html">Accesorios</a>
-      <img src="./imagenes/Foto9.jpg" style="width: 50%" height="50%"  class="card-container" alt="...">
+      <img src="./imagenes/Foto9.jpg" style="width: 50%" height="50%"  class="card-container" alt="ImagenDeAccesorios">
     </div>
   </div>
   <hr>
-<footer>
+<!-- Footer -->
+  <footer>
     <div id="footer_content">
       <div id="footer_contacts">
-        <img src="./imagenes/balcadur.png" style="width: 80%; height: 40%;" alt="logo";>
+        <img src="../imagenes/balcadur.png" style="width: 80%; height: 40%;" alt="logo";>
         <p>It's all about your dreams. </p>
 
         <div id="footer_social_media">
-          <a href="#" class="footer-link" id="instagram">
+          <a href="https://www.instagram.com/balcadur/" class="footer-link" id="instagram">
             <i class="fa-brands fa-instagram"></i>
           </a>
 
-          <a href="#" class="footer-link" id="facebook">
+          <a href="https://www.facebook.com/" class="footer-link" id="facebook">
             <i class="fa-brands fa-facebook-f"></i>
           </a>
 
-          <a href="#" class="footer-link" id="whatsapp">
+          <a href="https://web.whatsapp.com/" class="footer-link" id="whatsapp">
             <i class="fa-brands fa-whatsapp"></i>
           </a>
 </div>
@@ -228,13 +232,13 @@
           <h4>Dirección</h4>
         </li>
         <li>
-          <a href="#" class="footer-link">100 Flores, CABA Argentina. 1902CP</a>
+          <a href="https://goo.gl/maps/5L2p7CimbqTXNvHv5" class="footer-link">100 Flores, CABA Argentina. 1902CP</a>
         </li>
         <li>
-          <a href="#" class="footer-link">Balcadur@gmail.com</a>
+          <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" class="footer-link">Balcadur@gmail.com</a>
         </li>
         <li>
-          <a href="#" class="footer-link">+54 911 12 345678</a>
+          <a href="https://web.whatsapp.com/" class="footer-link">+54 911 12 345678</a>
         </li>
       </ul>
       <div id="footer_subscribe">
@@ -244,9 +248,8 @@
           Ingrese su correo electrónico para recibir notificaciones sobre
           nuestras actualizaciones de categorias y precios
         </p>
-
         <div id="input_group">
-          <input type="text" id="email" placeholder="email"/>
+          <input type="email" id="email">
           <button>
             <i class="fa-regular fa-envelope"></i>
           </button>
@@ -258,8 +261,7 @@
     2023, www.balcadur.com
   </div>
 </footer>
-
 </body>
-
+<!-- CDN de Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>
