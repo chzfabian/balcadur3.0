@@ -129,6 +129,10 @@ h1, h2, h5 {
   margin: 90%;
 }
 
+.card-container2 {
+  display: flex;
+}
+
 .card {
   width: 100%;
   height: auto;
