@@ -149,20 +149,7 @@ h1, h2, h5 {
   align-items: center;
 }
 /* Botonsito color */
-/* MediaQueries de Navbar */
-@media screen and (min-with:0){
-  .header{
-    font-weight: 100px;
-  }
-}
 
-.card-img-top2 {
-  width: 50px;
-}
-.versito {
-  background: #25d366;
-  border: #ff2992;
-}
 
 /* Footer */
 footer {
@@ -614,7 +601,6 @@ h6 {
 .button span {
   height: 100%;
   width: 100%;
-  
   background: inherit;
 }
 
