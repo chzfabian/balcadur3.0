@@ -95,7 +95,7 @@ h1, h2, h5 {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   margin: auto;
   padding: 5%;
   display: flex;
@@ -111,7 +111,7 @@ h1, h2, h5 {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   margin: auto;
   padding: 5%;
   display: flex;
@@ -129,9 +129,6 @@ h1, h2, h5 {
   margin: 90%;
 }
 
-.card-container2 {
-  display: flex;
-}
 
 .card {
   width: 100%;
@@ -141,13 +138,30 @@ h1, h2, h5 {
   justify-content: center;
   align-items: center;
 }
-
+.card-titulo {
+  background-color: red($color: #000000);
+}
 .card > div > img {
   width: 100%;
   height: auto;
   display: flex;
   justify-items: center;
   align-items: center;
+}
+/* Botonsito color */
+/* MediaQueries de Navbar */
+@media screen and (min-with:0){
+  .header{
+    font-weight: 100px;
+  }
+}
+
+.card-img-top2 {
+  width: 50px;
+}
+.versito {
+  background: #25d366;
+  border: #ff2992;
 }
 
 /* Footer */
@@ -159,7 +173,7 @@ footer {
 
 .footer-link {
   -webkit-text-decoration: dashed;
-  text-decoration: dashed;
+          text-decoration: dashed;
 }
 
 #footer_content {
@@ -600,6 +614,7 @@ h6 {
 .button span {
   height: 100%;
   width: 100%;
+  
   background: inherit;
 }
 
@@ -620,4 +635,4 @@ h6 {
   display: flex;
   justify-content: center;
   padding: 10px;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

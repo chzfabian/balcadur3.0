@@ -1,0 +1,18 @@
+// Importar los estilos globales y variables
+@import "base/variables";
+@import "base/global";
+
+// Importar los estilos de componentes
+@import "components/galeria";
+@import "components/cards";
+@import "components/buttons";
+
+// Importar los estilos de layouts
+@import "layouts/header";
+@import "layouts/footer";
+
+// Importar los estilos de las páginas
+@import "pages/index";
+@import "pages/tienda";
+@import "pages/accesorios";
+@import "pages/contacto";
